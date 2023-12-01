@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="691.0" style="-fx-background-color: #1A2232;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="496.0" fitWidth="224.0" layoutX="-6.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ProjetoBD-Cinema/0c799add-c808-48de-8282-bf7099d7666a.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="115.0" layoutX="57.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ProjetoBD-Cinema/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="235.0" text="CineMax" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="567.0" layoutY="369.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #FF8036; -fx-border-color: #FF8036; -fx-border-radius: 6; -fx-border-width: 2;" text="Criar Conta" textAlignment="CENTER" textFill="WHITE" />
+      <Button layoutX="255.0" layoutY="369.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #1F293DB2; -fx-border-color: #FF8036; -fx-border-radius: 6; -fx-border-width: 2;" text="Voltar" textAlignment="CENTER" textFill="WHITE" />
+      <PasswordField layoutX="492.0" layoutY="111.0" prefHeight="25.0" prefWidth="152.0" />
+      <Label layoutX="236.0" layoutY="215.0" text="Data De Nascimento:" textFill="WHITE" />
+      <Label layoutX="496.0" layoutY="85.0" text="Senha:" textFill="WHITE" />
+      <Label layoutX="389.0" layoutY="38.0" text="CADASTRO" textAlignment="CENTER" textFill="#f55e00" wrapText="true">
+         <font>
+            <Font name="Candara Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="473.0" layoutY="-77.0" prefHeight="25.0" prefWidth="151.0" />
+      <PasswordField layoutX="493.0" layoutY="173.0" prefHeight="25.0" prefWidth="156.0" />
+      <Label layoutX="493.0" layoutY="149.0" text="Confirmar Senha:" textFill="WHITE" />
+      <Label layoutX="238.0" layoutY="149.0" text="E-mail:" textFill="WHITE" />
+      <TextField layoutX="235.0" layoutY="110.0" />
+      <TextField layoutX="234.0" layoutY="173.0" />
+      <DatePicker layoutX="235.0" layoutY="237.0" prefHeight="24.0" prefWidth="153.0" />
+      <Label layoutX="236.0" layoutY="84.0" text="Nome Completo:" textFill="WHITE" />
+      <Label layoutX="493.0" layoutY="228.0" text="Sexo:" textFill="WHITE" />
+      <RadioButton layoutX="491.0" layoutY="255.0" mnemonicParsing="false" text="Feminino" textFill="WHITE" />
+      <RadioButton layoutX="576.0" layoutY="255.0" mnemonicParsing="false" text="Masculino" textFill="WHITE" />
+      <RadioButton layoutX="490.0" layoutY="285.0" mnemonicParsing="false" text="Não Especificar" textFill="WHITE" />
+      <TextField layoutX="234.0" layoutY="305.0" prefHeight="25.0" prefWidth="153.0" />
+      <Label layoutX="235.0" layoutY="282.0" text="Usuário:" textFill="WHITE" />
+   </children>
+</AnchorPane>
